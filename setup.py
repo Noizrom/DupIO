@@ -2,13 +2,13 @@ from setuptools import setup
 
 setup(
     name="DupIO",
-    version="0.1.0",
-    py_modules=["DuplicateIO"],
+    version="0.2.0",
+    py_modules=["duplicateio"],
     author="Noizrom",
     author_email="noizrom@gmail.com",
     entry_points='''
         [console_scripts]
-        DuplicateIO=DuplicateIO:__main__''',
+        duplicateio=duplicateio:__main__''',
     url = "https://github.com/Noizrom/DupIO",
-    download_url = "https://github.com/Noizrom/DupIO/releases/tag/new"
+    download_url = "https://github.com/Noizrom/DupIO/releases/tag/latest"
 )

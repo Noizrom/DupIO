@@ -9,7 +9,7 @@ pip install https://github.com/Noizrom/DupIO/archive/refs/tags/new1.tar.gz
 ## Usage
 ### Importing
 ```python
-from DuplicateIO import DupStderr , DupStdout
+from duplicateio import DupStderr , DupStdout
 ```
 ### Initializing
 ```python
