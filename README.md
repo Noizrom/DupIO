@@ -3,7 +3,7 @@ A simple way to duplicate stdout and stderr to a file while still displaying it 
 
 ## Installation
 ```bash
-pip install https://github.com/Noizrom/DupIO/archive/refs/tags/dulicateio-0.2.1.tar.gz
+pip install https://github.com/Noizrom/DupIO/archive/refs/tags/duplicate-0.2.1.tar.gz
 ```
 
 ## Usage
