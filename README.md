@@ -9,11 +9,11 @@ pip install https://github.com/Noizrom/DupIO/archive/refs/tags/new1.tar.gz
 ## Usage
 ### Importing
 ```python
-from duplicateio import DupStderr , DupStdout
+from duplicateio import duplicatestdout , duplicatestderr
 ```
 ### Initializing
 ```python
-DupStdout("External_file.txt" , "a+")
-DupStderr("External_error_file.txt" , "a+")
+duplicatestdout("file-to-fork-stdout.txt" , "a+")
+duplicatestderr("file-to-fork-stderr.txt" , "a+")
 ```
 

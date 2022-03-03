@@ -14,7 +14,7 @@ class DupIO(object):
     def flush(self):
         self.file.flush()
 
-class DupStdout(DupIO):
+class duplicatestdout(DupIO):
     """duplicate an stdout to file"""
     def __init__(self , name , mode:str = "a+" , header:str =None):
         self.io = sys.stdout    
@@ -24,7 +24,7 @@ class DupStdout(DupIO):
         sys.stdout = self.io
         self.file.close()
 
-class DupStderr(DupIO):
+class duplicatestderr(DupIO):
     """duplicate an stderr to file"""
     def __init__(self , name , mode:str = "a+" , header:str =None):
         self.io = sys.stderr   
@@ -37,5 +37,5 @@ class DupStderr(DupIO):
 if __name__=="__main__":
     # test Duplicated output
     import time
-    DupStdout("rdout.txt" , "a+")
+    duplicatestdout("rdout.txt" , "a+")
     print('Hello World')
