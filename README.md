@@ -7,8 +7,12 @@ pip install https://github.com/Noizrom/DupIO/archive/refs/tags/new1.tar.gz
 ```
 
 ## Usage
+### Importing
 ```python
-from DUPIO import DupStderr , DupStdout
+from DuplicateIO import DupStderr , DupStdout
+```
+### Initializing
+```python
 DupStdout("External_file.txt" , "a+")
 DupStderr("External_error_file.txt" , "a+")
 ```
