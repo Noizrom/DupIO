@@ -3,17 +3,17 @@ A simple way to duplicate stdout and stderr to a file while still displaying it 
 
 ## Installation
 ```bash
-pip install https://github.com/Noizrom/DupIO/archive/refs/tags/duplicateio-0.2.1.tar.gz
+pip install https://github.com/Noizrom/DupIO/archive/refs/tags/duplicate_io-v0.3.0.tar.gz
 ```
 
 ## Usage
 ### Importing
 ```python
-from duplicateio import duplicatestdout , duplicatestderr
+from duplicate_io import Forkstdout , Forkstderr
 ```
 ### Initializing
 ```python
-duplicatestdout("file-to-fork-stdout.txt" , "a+")
-duplicatestderr("file-to-fork-stderr.txt" , "a+")
+Forkstdout("file-to-fork-stdout.txt" , "a+")
+Forkstderr("file-to-fork-stderr.txt" , "a+")
 ```
 
