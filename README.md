@@ -1,4 +1,6 @@
-![Lines](https://img.shields.io/tokei/lines/github/Noizrom/DupIO?style=flat-square)
+![Lines](https://img.shields.io/tokei/lines/github/Noizrom/DupIO)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Noizrom/DupIO)
+
 # DupIO
 A simple way to duplicate stdout and stderr to a file while still displaying it during the process
 
