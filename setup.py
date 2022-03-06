@@ -1,3 +1,4 @@
+'''setup file for pip'''
 from setuptools import setup
 
 setup(
