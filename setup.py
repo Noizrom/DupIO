@@ -2,14 +2,14 @@
 from setuptools import setup
 
 setup(
-    name="duplicateio",
+    name="duplicate_io",
     version="0.2.1",
-    py_modules=["duplicateio"],
+    py_modules=["duplicate_io"],
     author="Noizrom",
     author_email="noizrom@gmail.com",
     entry_points='''
         [console_scripts]
-        duplicateio=duplicateio:__main__''',
+        duplicate_io=duplicate_io:__main__''',
     url = "https://github.com/Noizrom/DupIO",
     download_url = "https://github.com/Noizrom/DupIO/releases/tag/duplicateio-0.2.1.tar.gz"
 )
