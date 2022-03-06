@@ -42,18 +42,16 @@ class Forkstdout(DupIO):
 class Forkstderr(DupIO):
     """duplicate an stderr to file"""
     def __init__(self , name , mode:str = "a+" , header:str =None):
-        self.io = sys.stderr
+        self._io = sys.stderr
         super().__init__(name , mode , header)
         sys.stderr= self
-        
+
 
     def __del__(self):
-        sys.stderr= self.io
+        sys.stderr= self._io
         self.file.close()
 
 
 if __name__=="__main__":
     Forkstdout("rdout.txt" , "a+")
     print('Hello World')
-    
-    
